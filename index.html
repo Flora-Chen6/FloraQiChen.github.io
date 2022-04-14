@@ -8,17 +8,43 @@
     <title>My personal website</title>
 </head>
 <body>
+
+<!-- header section -->
+<section id="header">
+    <div class="header container">
+        <div class="nav_bar">
+            <div class="logo">
+                <a href="#hero">
+                    <!-- <img src="./images/avatar.JPG" alt="">  -->
+                    <!-- <p>Flora</p> -->
+                </a>
+            </div>
+            <div class="nav-list">
+                <div class="hamburger">
+                    <div class="bar"></div>
+                </div>
+                <ul>
+                    <li><a href="#hero" data-after="Home">Home</a></li>
+                    <li><a href="#about" data-after="About">About Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</section>
+
     <!-- hero section -->
     <section id = "hero">
         <div class="hero container">
             <div>
-                <h1>Hello, Welcome to Flora's personal website!</h1>
-                <a href="#" type = "button", class = "button">About me</a>
+                <h1>Hello</h1>
+                <!-- <h1>Hello, Welcome to Flora's personal website!</h1> -->
+                <a href="#about" type = "button", class = "button">About me</a>
             </div>
-            <!-- <div class="icon"><img src="./images/avatar.JPG" alt="avatar"></div> -->
         </div>
     </section>
-    <!-- end hero section -->
+    
+
     <!-- About me section -->
 <section id = "about">
     <div class = "about container">
@@ -27,7 +53,7 @@
         </div>
         <div class="about_item">
             <!-- <h5>Education</h5> -->
-            <div> <img src="./images/Emory_Logo.gif" alt=""></div>
+            <a href="https://www.emory.edu/home/index.html"><img src="./images/Emory_Logo.gif" alt=""></a>
             <div class = "about_info1">
                 <p>Fusce ut placerat orci nulla pellentesque. Neque ornare aenean euismod elementum. Nibh nisl 
                 condimentum id venenatis a condimentum vitae sapien. Imperdiet proin fermentum leo vel orci porta non
@@ -68,55 +94,33 @@
                 netus.</p>
             </div>
         </div>
-
-
-<!-- contact information -->
-    <div id = "contact">
-        <div class="contact_header">        
-            <!-- <h1 class="section_title">Contact Information</h1> -->
-        </div>
-        <div class="contact_content">
-            <div class="contact_item">
-                <img src="./images/email_icon.png" alt="">
-                <p>email: flora.chen686@gmail.com</p>
-            </div>
-            
-            <div class="contact_item">
-                <img src="./images/phone_icon.png" alt="">
-                <p>mobile phone: 100-000-000</p>
-            </div>
-        </div>
-    </div>
-    
     </div>
 
 </section>
-    <!-- End of About me section -->
 
 
-    
+    <section id="footer">
+        <div class="footer container">
+     <!-- contact information -->
+            <h3>Personal Website of Qi <span><img src="./images/avatar.JPG" alt=""></span> Chen</h3>
 
-
-    <!-- project section -->
-<!-- <section id = "projects">
-        <div class = "projects container">
-            <div class = "projects_header">
-                <h1 class = "section_title">My Projects</h1>
-                <p> introduction of the projects. introduction of the projects.
-                    introduction of the projects. introduction of the projects.
-                </p>
+            <!-- <div class="contact_header">        
+                <h1 class="section_title">Contact Information</h1>
+            </div> -->
+            <div class="contact_content">
+                <div class="contact_item">
+                    <img src="./images/email_icon.png" alt="">
+                    <a href="#"><p>flora.chen686@gmail.com</p></a>
+                </div>
                 
+                <div class="contact_item">
+                    <img src="./images/phone_icon.png" alt="">
+                    <a href="#"><p>100-000-000</p></a>
+                </div>
             </div>
-            <div class = "projects_listings">
-                <h2 class="listing_title"> Project_name/number</h2>
-                <p class="description"> description of the item</p>
-            </div>
-
+    
         </div>
-</section> -->
-    <!-- end of project section -->
-
+    </section>
 
 </body>
 </html>
-<!-- blue #1C658C -->
